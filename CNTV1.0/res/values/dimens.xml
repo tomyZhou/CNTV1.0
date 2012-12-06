@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- sp -->
+	<dimen name="size_title">20sp</dimen>
+	<!-- dip -->
+	<dimen name="margin_btn">5dip</dimen>
+	<dimen name="height_list_item">65dip</dimen>
+	<dimen name="margin_layout_wight">14dip</dimen>
+	<dimen name="height_separator">2dip</dimen>
+	<dimen name="margin_login_hint">12dip</dimen>
+	<dimen name="size_icon">48dip</dimen>
+	<dimen name="margin_dealer_item">10dip</dimen>
+	<dimen name="size_icon_layout">54dip</dimen>
+	<dimen name="margin_setpassword">18dip</dimen>
+	<dimen name="margin_setpassword_text">16dip</dimen>
+	<dimen name="size_icon_describe">60dip</dimen>
+	<dimen name="size_icon_describe_layout">68dip</dimen>
+	<dimen name="margin_activity_describe_icon_top">58dip</dimen>
+	<dimen name="margin_activity_describe_time">20dip</dimen>
+	<dimen name="margin_activity_describe_time_bottom">8dip</dimen>
+	<dimen name="height_dealer_describe_item">56dip</dimen>
+	<dimen name="height_title_button">38dip</dimen>
+	<dimen name="padding_left_title_button">15dip</dimen>
+	
+	
+	
+	
+	
+	
+	<dimen name="focus_button_height">45.0dip</dimen>
+    <dimen name="focus_bottom_tab_font_size">10.0dip</dimen>
+    <dimen name="focus_bottom_tab_padding_up">5.0dip</dimen>
+    <dimen name="focus_bottom_tab_padding_drawable">2.0dip</dimen>
+    <dimen name="focus_switch_logo_bottom_padding">30.0sp</dimen>
+    <dimen name="focus_widget_height">100.0dip</dimen>
+    <dimen name="focus_sta_height">48.0dip</dimen>
+    <dimen name="focus_widget_write_margin_top">19.0dip</dimen>
+    <dimen name="focus_widget_write_margin_left">10.0dip</dimen>
+    <dimen name="focus_widget_content_margin_top">20.0dip</dimen>
+    <dimen name="focus_widget_content_margin_left">10.0dip</dimen>
+    <dimen name="focus_widget_logo_size">35.0dip</dimen>
+    <dimen name="focus_title_height">74.0dip</dimen>
+    <dimen name="focus_new_blog_size">70.0dip</dimen>
+	
+	
+	
+	
+</resources>

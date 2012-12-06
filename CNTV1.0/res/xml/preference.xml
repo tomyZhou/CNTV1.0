@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="@string/setting_video_title" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="set_videplay_key"
+            android:summary="@string/auto_update_setting"
+            android:summaryOff="@string/setting_video_switch_summary_off"
+            android:summaryOn="@string/setting_video_switch_summary_on"
+            android:title="@string/setting_video_switch_title" />
+            
+         <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="set_video_auto_next_key"
+            android:summary="@string/auto_update_setting"
+            android:summaryOff="@string/setting_video_outo_next_summary_off"
+            android:summaryOn="@string/setting_video_outo_next_summary_on"
+            android:title="@string/setting_video_auto_next_title" /> 
+
+        <ListPreference
+            android:dialogTitle="@string/auto_update_frequency_title"
+            android:entries="@array/auto_frequency_value"
+            android:entryValues="@array/auto_frequency_value"
+            android:key="auto_update_frequency_key"
+            android:negativeButtonText="@string/cancel"
+            android:summary="@string/auto_update_frequency_summary"
+            android:title="@string/auto_update_frequency_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/other" >
+        <CheckBoxPreference
+            android:key="set_music_exit_key"
+            android:title="@string/set_music_eixt_text"
+            android:disableDependentsState="true"
+            />
+       
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/boot">
+        <CheckBoxPreference
+            android:key="set_boot_button"
+            android:title="关闭开机启动通知"
+            android:disableDependentsState="true"
+            />
+       
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

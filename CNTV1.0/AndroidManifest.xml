@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="cn.hi321.android.player" android:versionCode="8" android:versionName="1.7">
+
+	<application android:icon="@drawable/icon"  android:label="@string/app_name">
+	
+	   <activity android:name="cn.hi321.android.player.LoginActivity" 
+		    android:screenOrientation="portrait"
+		    android:configChanges="keyboardHidden|orientation|locale" 
+			android:theme="@android:style/Theme.NoTitleBar" 
+		 >  
+		    <intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		    <intent-filter>    
+               <action android:name="android.intent.action.CREATE_SHORTCUT" />    
+           </intent-filter>   
+		</activity>
+	
+		
+		
+		<activity android:name="com.weichuang.china.tv.TVActivity" 
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation|locale" 
+			android:theme="@android:style/Theme.NoTitleBar" 
+		 >  
+		</activity>
+		  
+		 
+		<activity android:name="com.weichuang.china.video.player.SystemPlayer"
+		    android:screenOrientation="landscape"
+			android:configChanges="keyboardHidden|orientation|locale" 
+			android:theme="@android:style/Theme.NoTitleBar">
+			
+			
+            
+              <intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<!-- 支持播放网络视频-->
+				<data android:mimeType="video/*" android:scheme="http" />
+				<!-- 支持播放本地视频-->
+				<data android:mimeType="video/*" android:scheme="file" />
+				<!-- 支持网络音频-->
+				<data android:mimeType="audio/*" android:scheme="http" />
+				<!-- 本地音频-->
+				<data android:mimeType="audio/*" android:scheme="file" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+			
+	      
+		<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="rtsp" />
+				<data android:mimeType="video/*" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="rtsp" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="http" />
+				<data android:mimeType="video/*" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="video/*" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:scheme="file" />
+				<data android:mimeType="video/*" />
+			</intent-filter>
+
+			<intent-filter>
+				<action android:name="android.intent.action.SEARCH" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+			
+		</activity>
+		<activity android:name="com.weichuang.china.video.player.VideoPlayer"
+		    android:screenOrientation="landscape"
+			android:configChanges="keyboardHidden|orientation|locale" 
+			android:theme="@android:style/Theme.NoTitleBar"/>
+		
+	 
+	 
+	 
+	 
+	 
+	 
+		
+     
+     
+
+	</application>
+	<supports-screens
+            android:smallScreens="true"
+            android:normalScreens="true"
+            android:largeScreens="true"
+            android:resizeable="true"
+            android:anyDensity="true" />
+	<uses-sdk android:minSdkVersion="5"  android:maxSdkVersion="14"></uses-sdk>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>  
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+    
+    
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/> 
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+	
+   <!--
+    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+       <uses-permission android:name="android.permission.READ_SMS"/>
+    
+    
+--></manifest>

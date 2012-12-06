@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="vertical"
+     android:layout_width="fill_parent"
+     android:layout_height="50dip"
+     >
+  <TextView  
+     android:layout_width="fill_parent" 
+     android:layout_height="fill_parent" 
+     android:id="@+id/child"
+     android:textSize="20sp"
+     android:paddingLeft="25px"
+     android:paddingTop="10px"
+     android:paddingRight="5px"
+     android:paddingBottom="10px"
+     android:layout_centerVertical="true"
+     android:text="No Data"/>
+ </RelativeLayout>

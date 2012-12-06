@@ -1,0 +1,31 @@
+{"video":
+			[{"videoNamePerson":"CCTV",
+						"videos":[  
+						
+						
+									 {"title":"CCTV-1(高速通道)","url":"http://cntv.itv.doplive.com.cn/live591/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv1.gif","flags":"6"}
+									 ,{"title":"CCTV-test(高速通道)","url":"http://rtmp.cntv.lxdns.com/live/cctv5/playlist.m3u8","image":"http://i0597.com/cntv/images/cctv2.gif","flags":"6"}
+									 ,{"title":"CCTV-2(高速通道)","url":"http://cntv.itv.doplive.com.cn/live592/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv2.gif","flags":"6"}
+									 ,{"title":"CCTV-3(高速通道)","url":"http://cntv.itv.doplive.com.cn/live593/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv3.gif","flags":"6"}
+									 ,{"title":"CCTV-4(高速通道)","url":"http://cntv.itv.doplive.com.cn/live594/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv4.gif","flags":"6"}
+									 ,{"title":"CCTV-5(高速通道)","url":"http://cntv.itv.doplive.com.cn/live595/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv5.gif","flags":"6"}
+									 ,{"title":"CCTV-6(高速通道)","url":"http://cntv.itv.doplive.com.cn/live512/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv6.gif","flags":"6"}
+									 ,{"title":"CCTV-7(高速通道)","url":"http://cntv.itv.doplive.com.cn/live597/index_900k.m3u8","image":"http://i0597.com/cntv/images/cctv7.gif","flags":"6"}
+									 ,{"title":"CCTV-8(高速通道)","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV8&1.m3u8","image":"http://i0597.com/cntv/images/cctv8.gif","flags":"6"}
+									 ,{"title":"CCTV-9(高速通道)","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV9&1.m3u8","image":"http://i0597.com/cntv/images/cctv9.gif","flags":"6"}
+									 ,{"title":"CCTV-10(高速通道)","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV10&1.m3u8","image":"http://i0597.com/cntv/images/cctv10.gif","flags":"6"}
+									 ,{"title":"CCTV-11(高速通道)","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV11&1.m3u8","image":"http://i0597.com/cntv/images/cctv11.gif","flags":"6"}
+									 ,{"title":"CCTV-12(高速通道)","url":"http://tvm.3g.cntv.cn/approve/live?channel=CCTV12&1.m3u8","image":"http://i0597.com/cntv/images/cctv12.gif","flags":"6"}
+									 ,{"title":"CCTV-13(高速通道)","url":"http://cntv.itv.doplive.com.cn/live603/index_900k.m3u8","image":"http://i0597.com/cntv/images/cctv13.gif","flags":"6"}
+									 ,{"title":"CCTV-3（广东联通）","url":"rtsp://l.m.cztv.com:554/cctv3/live_ld","image":""}
+									 ,{"title":"CCTV-5（广东联通）","url":"rtsp://l.m.cztv.com:554/cctv5/live_ld","image":""}
+									 ,{"title":"CCTV-8（广东联通）","url":"rtsp://l.m.cztv.com:554/cctv8/live_ld","image":""}
+									 ,{"title":"CCTV-1（广东电信）","url":"rtsp://113.108.220.53:1935/live/cctv1.sdp","image":""}
+									 ,{"title":"CCTV-2（广东电信）","url":"rtsp://113.108.220.53:1935/live/cctv2.sdp","image":""}
+									 ,{"title":"CCTV-4（广东电信）","url":"rtsp://113.108.220.53:1935/live/cctv4.sdp","image":""}
+									 ,{"title":"CCTV-13（广东电信）","url":"rtsp://113.108.220.53:1935/live/cctv13.sdp","image":""}
+									  ] 
+	
+			}
+			]
+	}

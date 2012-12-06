@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/helo_android/!svn/ver/1398/trunk/dianxing1.8/keystore
+END
+生成keystore命令
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/helo_android/!svn/ver/1398/trunk/dianxing1.8/keystore/%E7%94%9F%E6%88%90keystore%E5%91%BD%E4%BB%A4
+END
+dianxing.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/helo_android/!svn/ver/1398/trunk/dianxing1.8/keystore/dianxing.keystore
+END
+dianxing.keystore密码
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/helo_android/!svn/ver/1398/trunk/dianxing1.8/keystore/dianxing.keystore%E5%AF%86%E7%A0%81
+END
+debug.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/helo_android/!svn/ver/1398/trunk/dianxing1.8/keystore/debug.keystore
+END
